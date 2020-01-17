@@ -5,7 +5,7 @@ RUN apk --no-cache add openssl ca-certificates wget bash && \
 
 ENV VERDACCIO_APPDIR=/opt/verdaccio \
     VERDACCIO_USER_NAME=verdaccio \
-    VERDACCIO_USER_UID=10001 \
+    VERDACCIO_USER_UID=1000 \
     VERDACCIO_PORT=4873 \
     VERDACCIO_PROTOCOL=http
 
